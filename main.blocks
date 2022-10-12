@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="e`DY5sc73/oMeBK#c^gN">number</variable></variables><block type="device_forever" id="F7.vfu3D@ODNyEK=~VTP" x="0" y="0"></block><block type="device_button_event" id="}^o(z)]7v$o-?DcQ#6Xw" x="132" y="310"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id=":J.7*E@P.q9t`d_lgt+F"><field name="VAR" id="e`DY5sc73/oMeBK#c^gN">number</field><value name="VALUE"><shadow type="math_number" id="EfKcl9a5*z_1{[(=1hQh"><field name="NUM">9</field></shadow></value><next><block type="device_while" id="FT+}3|6:tK7s0(lmuF_x"><value name="COND"><shadow type="logic_boolean" disabled="true"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="4Ef/)s@M6CRoAYa07H!t"><field name="OP">GTE</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="zrxr,N?Kg@H[gLZ2p)2{"><field name="VAR" id="e`DY5sc73/oMeBK#c^gN">number</field></block></value><value name="B"><shadow type="math_number" id="=!yDLyh[yuE|5xHe`Pej"><field name="NUM">0</field></shadow></value></block></value><statement name="DO"><block type="device_show_number" id="}av6mjNtvYMKbzSw3%~-"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="p_Bh0:nq/..O`cA=kcWL"><field name="VAR" id="e`DY5sc73/oMeBK#c^gN">number</field></block></value><next><block type="variables_change" id="$TA0Ibt2|Jb.AlfE(spK"><field name="VAR" id="e`DY5sc73/oMeBK#c^gN">number</field><value name="VALUE"><shadow type="math_number" id="enE#IX6~49cnwcd@@;-T"><field name="NUM">-1</field></shadow></value></block></next></block></statement><next><block type="device_show_leds" id="T-B15o)RUZ~L[G3Y;3P}"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="F2t}3?P#Jmvea{5uBzRU"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # . # . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="2.R[Whq!o7mW[68*it`0"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="}8K@L9^|4|~Y7XK@dOsQ" x="815" y="322"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="variables_set" id="e~`MBqvwKCZ5pTfSW#:P"><field name="VAR" id="e`DY5sc73/oMeBK#c^gN">number</field><value name="VALUE"><shadow type="math_number" id="vLguJ.3)5Jxas#_I]GVu"><field name="NUM">0</field></shadow></value></block></statement></block><block type="pxt-on-start" id="k_*@cCip,1$(o!etgt.[" x="-72" y="372"></block></xml>
